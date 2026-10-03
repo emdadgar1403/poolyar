@@ -3,6 +3,6 @@
     <item
         android:width="66dp"
         android:height="66dp"
-        android:drawable="@drawable/poulyar_app_icon_1790996684879"
+        android:drawable="@drawable/poulyar_iranian_logo_1790997755553"
         android:gravity="center" />
 </layer-list>

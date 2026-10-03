@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -90,17 +91,24 @@ fun PoulyarHeaderCard(
                         )
                     }
 
-                    // Avatar badge
+                    // Iranian Poulyar Logo Badge
                     Box(
                         modifier = Modifier
-                            .size(46.dp)
+                            .size(52.dp)
                             .clip(CircleShape)
-                            .background(Color(0xFF14B8A6).copy(alpha = 0.35f)),
+                            .background(Color(0xFF14B8A6).copy(alpha = 0.35f))
+                            .padding(2.dp),
                         contentAlignment = Alignment.Center
                     ) {
-                        Text(
-                            text = "🪙",
-                            fontSize = 24.sp
+                        androidx.compose.foundation.Image(
+                            painter = androidx.compose.ui.res.painterResource(
+                                id = com.example.R.drawable.poulyar_iranian_logo_1790997755553
+                            ),
+                            contentDescription = "نشان پولیار نوجوان",
+                            contentScale = androidx.compose.ui.layout.ContentScale.Crop,
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .clip(CircleShape)
                         )
                     }
                 }

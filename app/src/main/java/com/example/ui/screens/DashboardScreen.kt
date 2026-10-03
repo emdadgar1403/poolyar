@@ -80,6 +80,11 @@ fun DashboardScreen(
             )
         }
 
+        // Persian Cultural Hero Banner
+        item {
+            com.example.ui.components.PersianCulturalBanner()
+        }
+
         // Section: "این هفته چطور خرج کردم؟" with Chart and Category amounts
         item {
             ExpenseCategoryChart(
