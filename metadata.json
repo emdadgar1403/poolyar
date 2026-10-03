@@ -1,0 +1,6 @@
+{
+  "name": "پولیار نوجوان",
+  "description": "اپلیکیشن هوشمند مدیریت پول توجیبی، پس‌انداز و رفتارهای مالی نوجوانان",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
